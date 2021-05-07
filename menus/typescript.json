@@ -1,0 +1,38 @@
+{
+  "menu": [
+    {
+      "label": "not displayed",
+      "id": "tools",
+      "submenu": [
+        {
+          "label": "Tyepscript",
+          "id": "tools.sub",
+          "command": "tools:donothing",
+          "submenu": [
+            {
+              "label": "Generate Code...",
+              "id": "ts.generate",
+              "command": "ts:generate"
+            },
+            {
+              "label": "Configure",
+              "id": "ts.config",
+              "command": "ts:config"
+            },
+            { "type": "separator" },
+            {
+              "label": "Hello World",
+              "id": "ts.helloworld",
+              "command": "ts:helloworld"
+            },
+            {
+              "label": "About",
+              "id": "ts.about",
+              "command": "ts:about"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
